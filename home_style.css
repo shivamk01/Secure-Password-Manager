@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded');
+
+html,body
+{
+	margin:0;
+	padding:0;
+	width:100%;
+}
+
+body
+{
+	background-color:#d9d9d9;
+}
+
+#main_head
+{
+	background-color:#009900;
+	position:fixed;
+	width:100%;
+	z-index:100;
+	height:80px;
+	-webkit-box-shadow: 0px 0px 28px 4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 28px 4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 28px 4px rgba(0,0,0,0.75);
+}
+
+#heading_content
+{
+	position:relative;
+	top:25px;
+	margin-left:20px;
+	font-size:25px;
+	font-family: 'Fira Sans', sans-serif;
+	color:white;
+}
+
+#main_form
+{
+	background-color:white;
+	border:none;
+	border-radius:20px;
+	-webkit-box-shadow: 0px 0px 28px 1px rgba(0,0,0,0.8);
+	-moz-box-shadow: 0px 0px 28px 1px rgba(0,0,0,0.8);
+	box-shadow: 0px 0px 28px 1px rgba(0,0,0,0.8);
+	width:60%;
+	text-align:left;
+	font-size:22px;
+	position:relative;
+	font-family: 'Source Sans Pro', sans-serif;
+	top:150px;
+	padding:12px;
+	margin-bottom:100px;
+}
+
+#head_form
+{
+	padding:10px;
+}
+
+input
+{
+	background:transparent;
+	border:none;
+	width:60%;
+	border-bottom:1px solid #cccccc;
+	padding:12px;
+	margin-top:20px;
+	margin-bottom:20px;
+	font-size:17px;
+	position:relative;
+	
+}
+
+input:focus{
+    outline: none;
+}
+
+input:focus
+{
+	border-bottom:2px solid #009900;
+	transition:0.15s ease-out;
+	color:#1a1a1a;
+}
+
+#submit,#cancel,#reset
+{
+	position:relative;
+	left:26%;
+	top:20px;
+	margin-bottom:20px;
+	background:transparent;
+	border:none;
+	cursor:pointer;
+	padding:10px;
+	font-size:15px;
+	color:#009900;
+	font-weight:bold;
+}
+
+#submit:focus,#cancel:focus,#reset:focus
+{
+	outline:none;
+	background-color:#cccccc;
+}
+
+#afterform
+{
+	position:relative;
+	padding:7px;
+	margin-bottom:30px;
+}
+
+.afterform
+{
+	margin-top:7px;
+	margin-bottom:7px;
+}
+
+a
+{
+	color:#009900;
+	font-size:16px;
+	text-decoration:none;
+	font-family: 'Encode Sans Semi Expanded', sans-serif;
+}
+
+a:hover
+{
+	text-decoration:underline;
+}
+
+.afterformlinks
+{
+	outline:none;
+}
